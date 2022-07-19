@@ -1,0 +1,137 @@
+
+.bodyBack{
+    min-width: 100%;
+    min-height: 100%;
+    background-image: url(../images/12_.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -100;
+    filter: opacity(40%);
+}
+.logo-img{
+    width: 30%;
+    height: auto;
+    filter:drop-shadow(0px 0px 4px rgb(0, 0, 0));
+    
+}
+.header{
+    width: 100%;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.btnLink{
+    border-radius: 50px!important;
+    box-shadow: 2px 2px 6px black!important;
+    padding: 2% 0%;
+    text-decoration: none;
+    font-size: 6vh ;
+    font-weight: bold!important;
+    background-color: white;
+    cursor: pointer;
+}
+
+.prentBtn{
+    text-align: center;
+    text-align:-webkit-center;
+    text-align: -moz-center;
+}
+.cont{
+    margin: 5px;
+}
+
+.name{
+    font-size: 85px;
+    font-family: articula;
+}
+
+.desc{
+    font-size: 70px;
+    text-align: center;
+    color: #009fb8;
+}
+
+
+.text1{
+    color: #009fb8;
+}
+.btnLink1:hover  .text1{
+    color: white;
+}
+.btnLink1:hover {
+    background-color: #009fb8;
+}
+
+.parent-icone2{
+    border-radius: 50%;
+    background-color: #3A5896;
+}
+.text2{
+    color: #3A5896;
+}
+.btnLink2:hover  .text2{
+    color: white;
+}
+.btnLink2:hover {
+    background-color: #3A5896;
+}
+
+.text3{
+    color: #353534;
+}
+.btnLink3:hover  .text3{
+    color: white;
+}
+.btnLink3:hover {
+    background: linear-gradient(to bottom right,#405de6, #fd1d1d);;
+}
+
+
+.parent-icone4{
+    border-radius: 50%;
+    background-color: #237010;
+}
+.text4{
+    color: #237010 ;
+}
+.btnLink4:hover  .text4{
+    color: white;
+}
+.btnLink4:hover {
+    background-color: #237010;
+}
+
+.parent-icone5{
+    border-radius: 50%;
+    background-color: #006699;
+}
+.text5{
+    color: #353534;
+}
+.btnLink5:hover  .text5{
+    color: white;
+}
+.btnLink5:hover {
+    background-color: #006699;
+}
+@media (max-width: 1025px) {
+    .btnLink{
+        font-size: 2.8vh ;
+    }
+}
+
+@media (max-width: 766px) {
+    .logo-img{
+        width: 80%;
+        height: auto;
+    }
+    .bodyBack{
+        background-image: url(../images/%201.jpg);
+    }
+    .btnLink{
+        font-size: 2.8vh ;
+    }
+
+
+}
